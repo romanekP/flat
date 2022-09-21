@@ -3,7 +3,7 @@ public class Flat {
     private String city;
     private boolean balcony;
 
-    Flat(int floor, String city, boolean balcony) {
+    public Flat(int floor, String city, boolean balcony) {
         this.floor = floor;
         this.city = city;
         this.balcony = balcony;
