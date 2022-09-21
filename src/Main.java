@@ -3,5 +3,6 @@ public class Main {
         Flat mieszkanie1 = new Flat(2, "Wroclaw", true);
         System.out.println(mieszkanie1.getFloor());
         System.out.println(mieszkanie1.getCity());
+        System.out.println(mieszkanie1.getBalcony());
     }
 }
